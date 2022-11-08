@@ -5,10 +5,11 @@ body{
     font-weight: bold;
     }
 
-.container{
+.container-nav{
     display: flex;
     direction: row;
     justify-content: space-between;
+    background-color: aqua;
 }
 
 .image{
@@ -26,7 +27,7 @@ body{
 }
 
 .nav-enlace:hover{
-    color: #F57A82;
+    color: #ff556e;
 }
 
 nav{
