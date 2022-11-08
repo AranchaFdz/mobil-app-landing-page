@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    }
+
+.container{
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+}
+
+.image{
+    padding: 10px;
+}
+
+
+.nav-enlace{
+    display:inline-block;
+    background: white;
+    color:black;
+    padding:10px 30px;
+    text-decoration: none;
+    
+}
+
+.nav-enlace:hover{
+    color: #F57A82;
+}
+
+nav{
+
+}
+
