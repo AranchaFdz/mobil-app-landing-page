@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(14, 191, 210);
 }
+
 
 .header{
     margin-bottom: 120px;
@@ -33,5 +35,5 @@ a.btn:hover{
 }
 
 .banner-info, .banner-image{
-    margin: 5px o;
+    margin: 5px 0;
 }
