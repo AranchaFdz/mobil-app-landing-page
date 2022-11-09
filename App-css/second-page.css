@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    margin-bottom: 120px;
+}
+
+.navbar-style{
+    align-items: right;
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+.logo{
+    height: 48px;
+    padding: 2px 10px;
+}
+
+.icon.bar{
+    background: pink;
+}
+
+li a{
+    list-style-type:"square";
+    color: #333;
+}
+.big-text{
+    font-size: 52px;
+    margin: 20px 0;
+    color: pink;
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.banner-info, .banner-image{
+    margin: 5px o;
+}
+
+a.btn-first{
+    background-color: #ff556e;
+    color: #fff;
+}
+a.btn:hover{
+    background: #fff;
+    border: none;
+    color: #ff556e;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.5s;
+    border: 1px solid #ff556e;   
+}
