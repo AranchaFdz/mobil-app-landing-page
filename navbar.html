@@ -14,29 +14,65 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div  class="row container-nav">
-                    <div class="col-2 image">
-                        <img src="/logo.svg" width="80px">
-                    </div>
-                    <div class="col-10">
-                        <nav>
-                            <a href="#" class="nav-enlace">DESCRIPTION</a>
-                            <a href="#" class="nav-enlace">FEATURES</a>
-                            <a href="#" class="nav-enlace">SCREENS</a>
-                            <a href="#" class="nav-enlace">EXTRA</a>
-                            <a href="#" class="nav-enlace">DOWNLOAD</a>
+                <div  class="row container-nav" class="container-fluid">
+                        <nav class="navbar me-auto navbar-expand-md">
+                            <a href="#" class="navbar-brand"><img src="logo.svg" width="90px"></a>
+                            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacion">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="#menu-navegacion">
+                                    <ul class="ms-auto navbar-nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">DESCRIPTION</a></li>                                
+                                    <li class="nav-item"><a class="nav-link" href="#">FEATURES</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">SCREENS</a></li>
+                                    <li class="dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="dropdownMenuLink" aria-expanded="false">
+                                            EXTRA
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            <li><a class="dropdown-item" href="#">ARTICLE DETAILS</a></li>
+                                            <li><a class="dropdown-item" href="#">TERMS CONDITIONS</a></li>
+                                            <li><a class="dropdown-item" href="#">PRIVACY POLICY</a></li>
+                                        </ul>
+                                        
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#">DOWNLOAD</a></li>
+                                </ul>
+                            </div>
                         </nav>
                     </div>
                 </div>
             </div>
             <div class="col-12">
-                MAIN
+                <div class="botones-arriba">
+                    <div class="heartbeat">
+                        <img src="decorative-green-diamond.svg" width="15px" ><br>
+                    </div>
+                    <div>
+                        <img src="decorative-yellow-circle.svg" width="10px" class="blink-2">
+                    </div>
+                </div>
+                <h1 class="head-text">Mobile App Landing Page</h1>
+                <p class="paragraph-text">Start focusing on your goals and get more things done with Sync mobile applicacion. It's <br> the first app to harness the power of social connections to help you stay focused and get <br>organized </p>
+                <div class="header-container">
+                    <div class="blink-1">
+                        <img src="decorative-blue-circle.svg" width="80px"><br>
+                    </div>
+                    <div class="swirl-in-fwd" width="100px">
+                    <img src="header-iphone.png" width="500px" class="mobile-picture">
+                    </div>
+                </div>
             </div>
             <div class="col-12">
                 FOOTER
             </div>            
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
 
