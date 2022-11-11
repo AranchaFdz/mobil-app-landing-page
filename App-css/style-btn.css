@@ -1,0 +1,102 @@
+/*body {
+    background-color: black;
+}*/
+
+/******************** SOMBRA EN EL BOTON******************/
+a.boton{
+	position: relative;
+	display: block;
+	padding: 25px 10px;
+	border-radius: 6px;
+	text-align: center;
+	font-weight: bold;
+	max-width: 320px;
+	height: 75px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	/*color:rgba(255,255,255,1);*/
+	cursor: pointer;
+	letter-spacing: 2px;
+	box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+	text-decoration: none;
+	transition: all ease 0.5s;
+	/*background:#10B87B;*/
+    background-color: #ff556e;  
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+ 
+a.boton:after,
+a.boton:before{
+	width: 80px;
+	height: 200px;
+	content: '';
+	display: block;
+	background: rgba(255,255,255,0.5);
+	transform: rotate(45deg);
+	top: -60px;
+	position: absolute;
+	transition: none;
+	right:-45%;
+	cursor: pointer;
+}
+ 
+a.boton:before{
+	left: -48%;
+}
+ 
+a.boton:hover{
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	/*background:#12C987*/
+    background-color: #ff556e;  
+}
+ 
+a.boton:hover:after,
+a.boton:hover:before{
+	transform: rotate(45deg), scaleX(130%);
+	background: rgba(255,255,255,0.1);
+	transition: all ease 0.5s;
+}
+ 
+a.boton:hover:after{
+	right: 130%;
+}
+ 
+a.boton:hover:before{
+	left: 130%;
+}
+
+/************** ICONOS ****************/
+.cont-iconos{
+	background-color: #e8eff6;
+	height: 15em;
+}
+.iconos{
+	font-size:60px;
+}
+
+.iconos:hover{
+	text-shadow: 1px 1px 1px rgb(21, 15, 48);
+}
+
+#icon-users{
+    color: #aa7eec;
+}
+
+#icon-code{
+    color: #19ca94;
+}
+
+#icon-gear{
+    color: #ff556e;
+}
+
+#icon-comments{
+    color: #ffb30f;
+}
+
+#icon-rocket{
+    color: #4fb9e8;
+}
+
